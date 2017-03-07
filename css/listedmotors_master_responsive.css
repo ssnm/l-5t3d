@@ -1,0 +1,531 @@
+.cssVersion{margin-left:-240px;}
+footer{font-family: 'Lato', sans-serif;z-index:1;position:relative;}
+.bfooter.bsrow{padding:25px 0;background-color:#002F4D;}
+.sfooter{padding:15px 0 !important;background-color:#EEEEEE !important;}
+.footer-links-wrap, .social-links-wrap, .copyright-wrap{text-align:center;}
+.social-links-wrap{height:50px !important;}
+.copyright-wrap{color:#FFFFFF;font-size:12px;letter-spacing:1px;padding-top:15px !important;}
+.copyright-footer-link{color:#FFFFFF !important;text-decoration:none !important;padding-left:10px !important;font-size:12px !important;font-weight:500 !important;letter-spacing:1px !important;}
+.footer-links, .social-links{list-style-type:none;display:inline-block;padding:10px 0;margin:0px !important;height:42px !important;cursor:default;}
+.sfooter-link, .footer-link, .social-link{display:inline-block;margin:0 5px !important;font-size:16px !important;cursor:pointer;}
+li.sfooter-link:after{display:block;content:'';position:relative;top:2px;border-bottom:solid 1px #002F4D;-webkit-transform:scaleX(0);-ms-transform:scaleX(0);transform:scaleX(0);-webkit-transition:-webkit-transform 250ms ease-in-out;transition:transform 150ms ease-in-out;}
+li.sfooter-link:hover:after{-webkit-transform:scaleX(1);-ms-transform:scaleX(1);transform:scaleX(1);}
+.sfooter-link a{color:#002F4D !important;text-decoration:none !important;padding:0 15px !important;font-size:14px !important;font-weight:500 !important;letter-spacing:1px !important;}
+.footer-link a{color:#FFFFFF !important;text-decoration:none !important;padding:0 10px !important;font-size:14px !important;font-weight:500 !important;letter-spacing:1px !important;}
+.footer-link a:hover{opacity:0.6;}
+.footer-link a:hover, .footer-link a:visited, .footer-link a:focus{color:#FFFFFF !important;text-decoration:none !important;}
+.social-link a:hover{opacity:0.6;}
+.social-link a{display:inline-block;height:35px;width:35px;background-image:url('../images/listed_footersocial_sprite_9903.png');background-size:auto 35px;background-repeat:no-repeat;background-position:0px 0px;margin:0 5px;}
+.social-link a.facebook{background-position:0px 0px;}
+.social-link a.twitter{background-position:-35px 0px;}
+.social-link a.mail{background-position:-70px 0px;}
+.social-link a.linkedin{background-position:-105px 0px;}
+.social-link a.app-download{background-position:-140px 0px;}
+.bsfooterBottom{color:#FFFFFF;font-size:14px;letter-spacing:normal;text-align:center;padding-top:35px;font-size:12px;}
+@media (max-width:767px){.footer-link{display:block;padding:2px 0;}
+.bsfooterBottom span{display:block;}
+}
+.mini-footer{background-color:#EEEEEE !important;color:#002F4D !important;z-index:9999;}
+.mini-footer .copyright-wrap{padding-top:0px !important;color:#002F4D !important;height:40px;line-height:40px;}
+.mini-footer-link{color:#002F4D !important;text-decoration:none !important;padding-left:10px !important;font-size:12px !important;font-weight:500 !important;letter-spacing:1px !important;}
+.mini-footer-link:hover{opacity:0.6;}
+footer ul{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+@media (max-width:500px){footer div.mini-footer{display:none;}
+}
+html,body{height:100%}form{height:calc(100% - 60px)}.wrapper{min-height:100%;height:auto!important;height:100%}footer,.push{width:100%;overflow:hidden}.footer-default .wrapper{margin:0 auto -246px}.footer-default footer,.footer-default .push{height:246px!important;max-height:246px!important}@media(max-width:992px){.footer-default .wrapper{margin:0 auto -174px}.footer-default footer,.footer-default .push{height:174px!important;max-height:174px!important}}@media(max-width:768px){.footer-default .wrapper{margin:0 auto -132px}.footer-default footer,.footer-default .push{height:132px!important;max-height:132px!important}}.footer-mini .wrapper{margin:0 auto -40px}.footer-mini footer,.footer-mini .push{height:40px!important;max-height:40px!important}#push-down{height:30px}#push-down.hide{display:none}#legal-notice{background-color:#EEE;color:#002F4D;height:30px;font-size:12px;line-height:30px;text-align:center;position:relative}#legal-notice a{color:#002F4D}#legal-notice.hide{display:none}#legal-notice .alert{border-radius:0!important;border:0}#legal-notice .close-button{display:inline-block;position:absolute;top:10%;background-image:url("../images/icon_close_gray.svg");height:23px;width:23px;background-size:auto 23px;background-repeat:no-repeat;margin-left:25px;cursor:pointer;font-size:15px}#legal-notice .close-button .close-notice{cursor:pointer}#legal-notice.sticky{position:fixed;bottom:0;width:100%;z-index:9999}
+header, body, footer{font-family: 'Lato', sans-serif !important;}
+a, a:hover{text-decoration:none !important;}
+.hwrap.header-large{position:relative;}
+.headerOverlay{height:60px;}
+body.disable-scrolling{width:100%;overflow:hidden;}
+.listedmotorsblue{color:#009BFF;}
+.listedmotorsgreen{color:#40B173;}
+.header{font-family: 'Lato', sans-serif !important;background-color:#FFFFFF;z-index:999;position:relative;font-size:16px !important;height:60px !important;}
+.header *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+.header.transparent-header{border-bottom:1px solid #EEEEEE;}
+#logowrap{margin-top:13px;}
+.header-left-wrap{margin-top:-2px;}
+#spriteLogo{float:left;width:120px;display:inline-block;height:60px;line-height:60px;margin-left:30px;}
+#smallLogo{display:inline-block;overflow:hidden;}
+#listedmotorsLogo{height:35px;width:100px;cursor:pointer;z-index:9999;display:inline-block;vertical-align:middle;}
+#smallLogo img{max-width:100px;}
+.ham-burger{float:left;height:35px;width:28px;cursor:pointer;background-image:url("../images/listed_header_sprites_9914.png");background-repeat:no-repeat;background-size:auto 35px;background-position:-49px -0px;}
+.mobile-header-right{float:right;}
+.mobile-header-right li{float:right;display:inline-block;}
+.mobile-button{height:35px;line-height:34px;color:#009BFF;background-color:transparent;padding:2px 7px;border:2px solid #009BFF;margin-left:10px;border-radius:5px;font-weight:600;font-size:13px;}
+.mobile-button:hover, .mobile-button:focus, .mobile-button:visited{color:#009BFF;}
+.chat-icon{height:35px;width:42px;cursor:pointer;background-image:url(../images/listed_header_sprites_9914.png);background-repeat:no-repeat;background-size:auto 36px;background-position:-121px 0px;display:inline-block;margin-left:10px;}
+#pnlHeaderSearch{display:none !important;}
+.dropdown-icon{height:35px;width:15px;cursor:pointer;background-image:url("../images/listed_header_sprites_9914.png");background-repeat:no-repeat;background-size:auto 35px;background-position:-28px 0px;display:inline-block;vertical-align:middle;}
+.nav-icon-link{height:35px;width:20px;cursor:pointer;background-image:url("../images/listed_header_sprites_9914.png");background-repeat:no-repeat;background-size:auto 35px;background-position:0px 0px;display:inline-block;vertical-align:middle;margin-top:6px;transition:none !important;}
+.headerIconLink{margin-left:27px !important;}
+.headerIconLink:after{border-bottom:none !important;}
+.nav-icon-link.profile-link{background-position:-296px 0px;}
+.nav-icon-link.profile-link:hover{background-position:-316px 0px;}
+.nav-icon-link.favorite-link{background-position:-336px 0px;}
+.nav-icon-link.favorite-link:hover{background-position:-356px 0px;}
+header .no-transition .icon-bar{-webkit-transform:none !important;-moz-transform:none !important;-ms-transform:none !important;-o-transform:none !important;transform:none !important;opacity:1 !important;}
+.header-center{position:absolute;left:50%;margin-left:-20px;top:0;}
+.header-left{position:absolute;left:50%;margin-left:-20px;top:0;}
+.header-right{position:absolute;left:50%;margin-left:-20px;top:0;}
+::-webkit-input-placeholder{color:#8397AD;}
+:-moz-placeholder{color:#8397AD;opacity:1;}
+::-moz-placeholder{color:#8397AD;opacity:1;}
+:-ms-input-placeholder{color:#8397AD;}
+.bscontainer-fluid.header .logo .phonenum{display:inline-block;float:right;}
+.bscontainer-fluid.header nav.navbar-default{background-image:none;box-shadow:none;background-color:inherit;border:none;margin-bottom:0;}
+.bscontainer-fluid.header .navbar-collapse{box-shadow:none !important;padding:0px;}
+.header .nav.nav-white{background-color:#FFFFFF !important;}
+ul.nav li.dropdown:hover > ul.dropdown-menu{display:block;}
+.bscontainer-fluid.header nav.navbar-default .nav > li > a{padding:10px 8px;font-size:1rem;line-height:60px;padding:0px;cursor:pointer;padding-top:1px;}
+.bscontainer-fluid.header nav.navbar-default .nav > li.open a{background-color:transparent;}
+.bscontainer-fluid.header nav.navbar-default .navbar-toggle.collapsed{border-color:#009BFF;}
+.bscontainer-fluid.header nav.navbar-default .navbar-toggle:hover{background-color:#F0F0F0;}
+.bscontainer-fluid.header nav.navbar-default .navbar-toggle{margin-top:10px;margin-left:14px;}
+.bscontainer-fluid.header #navbar{border-top:none;}
+.icon-bar{background-color:#009BFF !important;}
+.bscontainer-fluid.header nav.navbar-default .headerlink-dropdown{left:-66px;border-color:#CCCCCC;box-shadow:none;padding:0px !important;-webkit-box-shadow:none;-webkit-border-radius:5px 5px 5px 5px;-moz-border-radius:5px 5px 5px 5px;border-radius:5px 5px 5px 5px;}
+.bscontainer-fluid.header nav.navbar-default .headerlink-dropdown li{cursor:pointer;padding:2px 0px;line-height:initial;}
+.bscontainer-fluid.header nav.navbar-default .headerlink-dropdown li:hover{background-color:#EEEEEE !important;}
+.bscontainer-fluid.header nav.navbar-default .headerlink-dropdown li:first-child{-moz-border-radius:5px 5px 0px 0px;-webkit-border-radius:5px 5px 0px 0px;border-radius:5px 5px 0px 0px;}
+.bscontainer-fluid.header nav.navbar-default .headerlink-dropdown li:last-child{-moz-border-radius:0px 0px 5px 5px;-webkit-border-radius:0px 0px 5px 5px;border-radius:0px 0px 5px 5px;}
+.bscontainer-fluid.header nav.navbar-default .headerlink img{width:20px;height:6px;margin:0 5px;}
+.bscontainer-fluid.header .phone-number a{margin-top:0.5px;cursor:default !important;}
+.bscontainer-fluid.header nav.navbar-default .headerlink-dropdown li a{color:#002F4D !important;padding:8px 15px;background-color:transparent !important;width:160px;}
+.bscontainer-fluid.header #navbar ul#headerlinks > li{margin-left:18px;float:right;height:50px;line-height:50px;}
+.bscontainer-fluid.header #navbar ul#headerlinks > li.headerLink:after{display:block;content:'';border-bottom:solid 1px #002F4D;position:relative;top:-20px;-webkit-transform:scaleX(0);-ms-transform:scaleX(0);transform:scaleX(0);-webkit-transition:-webkit-transform 250ms ease-in-out;transition:transform 150ms ease-in-out;}
+.bscontainer-fluid.header #navbar ul#headerlinks > li:hover:after{-webkit-transform:scaleX(1);-ms-transform:scaleX(1);transform:scaleX(1);}
+.bscontainer-fluid.header #navbar ul#headerlinks > li.active:after{border-bottom:solid 1px #002F4D;-webkit-transform:scaleX(1);-ms-transform:scaleX(1);transform:scaleX(1);}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{background:none;}
+.bscontainer-fluid.header #navbar ul#headerlinks li > a{text-decoration:none;font-weight:400 !important;font-size:15px !important;color:#002F4D;outline:none;display:inline-block;}
+.bscontainer-fluid.header #navbar ul#headerlinks > li a.nav-item{padding:0 7px;}
+.bscontainer-fluid.header #navbar ul#headerlinks > li a.dropdown-link{padding-right:0px !important;}
+.bscontainer-fluid.header #navbar ul#headerlinks li a.headerbutton{border:1px solid silver;padding:2px 12px;color:#5f5f5f;border-radius:6px;margin-right:6px;margin-top:7px;font-weight:600;outline:none;}
+.bscontainer-fluid.header #navbar ul#headerlinks li a.headerbutton:hover{border:1px solid black;}
+#smallogo{margin:10px 0 0 10px;float:left;}
+ul.nav.navbar-nav .detachable{display:none;}
+ul#headerlinks.navbar-nav{float:right;font-weight:700;margin-right:30px;background-color:transparent !important;}
+@media (max-width:767px){.bscontainer-fluid.header{height:60px;}
+nav.navbar.navbar-default{border:1px solid #009BFF;}
+ul#headerlinks li a.headerbutton, ul#headerlinks li a.headerbutton:hover{border:0 !important;}
+.container-fluid.header .logo .phonenum{margin-top:0;}
+.container-fluid.header nav.navbar-default{margin-top:-24px;}
+ul#headerlinks.navbar-nav{float:left;}
+ul#headerlinks li a img{display:none;}
+#smallogo{float:none;}
+.header nav.navbar-default{margin-top:0;}
+.phonenum{margin-right:0;padding-top:6px;font-size:14px;}
+ul.nav.navbar-nav .detachable{display:block;}
+.mobile-hidden{display:none !important;}
+}
+@media (max-width:550px){#blacklogo, #whitelogo{width:36px !important;}
+#smallogo{float:none;margin:0 0 0 -18px !important;}
+}
+@media (min-width:1420px){ul.nav.navbar-nav .detachable{display:block;}
+}
+button#learn{padding:2px 12px;color:#5f5f5f;border-radius:6px;margin-right:6px;margin-top:7px;font-weight:700;background-color:white;color:#777;}
+button#learn span{position:relative;bottom:2px;font-size:10px;}
+@media (max-width:767px){#smallogo{margin:0;position:absolute;left:50%;margin:3px 0 0 -50px;top:10px;z-index:900;}
+.phonenum{margin-top:0;position:relative;top:26px;z-index:900;}
+.header nav.navbar{margin-top:-24px;}
+.header nav.navbar.navbar-default{border:none;}
+ul#headerlinks{margin-left:10px;}
+.bscontainer-fluid.header nav.navbar-default{}
+}
+@media (max-width:768px){}
+ul#headerlinks img{vertical-align:middle;width:10px;height:6px;margin:0 3px;}
+.headersearch{float:left;height:60px;line-height:60px;}
+input[type="text"].headerNewForm, input[type="text"].headerNewForm:focus{font-size:15px !important;border:none;outline:none;color:#002F4D;font-weight:400;height:25px !important;width:270px;background-position:5px 5px;padding:0;background-color:transparent;line-height:normal;margin-left:-9px;vertical-align:baseline !important;border-radius:0px !important;border-bottom:1px solid transparent;}
+input[type="text"].headerNewForm:hover, input[type="text"].headerNewForm:focus{opacity:0.7;}
+#cphMain_tbHeaderSearch_small{width:150px;}
+@media (min-width:1100px){#cphMain_tbHeaderSearch_large{width:330px !important;}
+}
+@media (min-width:1300px){#cphMain_tbHeaderSearch_large{width:400px !important;}
+}
+.listedmotors-sidebar{font-family: 'Lato', sans-serif !important;width:300px;max-width:70%;left:-300px;position:fixed;z-index:9999999;top:0px;height:100%;background-color:#03304C;overflow-y:auto;}
+.sidebar-items{padding:50px 0 0 0;margin:0px;max-height:100%;}
+.sidebar-item{list-style-type:none;font-size:14px;}
+.sidebar-item a{padding:12px 0px 12px 40px;color:#FFFFFF !important;width:100%;display:inline-block;text-transform:uppercase;font-weight:600;text-decoration:none !important;letter-spacing:1px;text-align:left !important;cursor:pointer;}
+.sidebar-item a:hover, .sidebar-item a:focus{color:#FFFFFF !important;text-decoration:none !important;}
+.listedmotors-sidebar .close{position:absolute;left:250px;top:10px;background-image:url('../images/cross_white.svg');background-repeat:no-repeat;background-size:30px;height:30px;width:30px;cursor:pointer;}
+#sidebar-lightbox{position:fixed;height:100%;width:100%;background-color:#000000;opacity:0.6;z-index:999999;top:0;bottom:0;left:0;right:0;}
+.contact-dropdown{position:absolute;width:100%;z-index:900;top:-300px;}
+.contact-overlay-background{background-color:#FFFFFF !important;height:300px;width:100%;position:absolute;opacity:0.95;}
+.contact-overlay{font-family: 'Lato', sans-serif !important;background-color:transparent;height:300px;width:100%;z-index:900;}
+.contact-overlay.mobile{background-color:#FFFFFF;height:300px;position:fixed;top:0px;right:-300px;width:300px;max-width:70%;height:100%;z-index:9999999;}
+#contact-lightbox{position:fixed;height:100%;width:100%;background-color:#000000;opacity:0.6;z-index:999999;top:0;bottom:0;left:0;right:0;}
+.contact-overlay .contact-header, .contact-overlay .contact-description{text-align:center;color:#002F4D;font-weight:500;}
+.contact-overlay .contact-header{font-size:28px;padding-bottom:10px;}
+.contact-overlay.mobile .contact-header{font-size:24px;padding-bottom:10px;}
+.contact-overlay .contact-description{font-size:14px;}
+.contact-overlay .contact-description{padding:0 20px;}
+.close-icon-wrap{height:40px;}
+.close-icon{float:left;height:30px;width:30px;cursor:pointer;background-image:url("../images/listed_header_sprites_9914.png");background-repeat:no-repeat;background-size:auto 40px;background-position:-193px -0px;display:inline-block;position:relative;bottom:4px;}
+#desktop-contact-lightbox{position:fixed;height:100%;width:100%;background-color:#000000;opacity:0.6;z-index:800;top:60px;bottom:0;left:0;right:0;}
+#contact-overlay .contact-content{padding-top:35px;}
+#contact-overlay .close-icon{float:right;margin-right:40px;}
+#mobile-contact-overlay{padding-top:20px;}
+.icon-wrap{height:100px;width:100px;background-color:#009BFF;display:block;border-radius:50px;text-align:center;line-height:100px;margin:auto;}
+.mobile .icon-wrap{margin:auto;height:60px;width:60px;line-height:60px;}
+.mobile .icon-wrap.contact-phone{margin-left:20px;}
+.contact-icons-wrap{text-align:center;}
+.contact-section{display:inline-block;margin:20px 40px;cursor:pointer;}
+.mobile .contact-section{margin-bottom:0px;}
+.contact-icon-text{padding-top:10px;}
+.contact-icon-text{display:inline-block;font-size:16px;font-weight:500;letter-spacing:0.5;color:#009BFF;}
+.contact-icon-text:hover, .contact-icon-text:visited{text-decoration:none;color:#009BFF;}
+.contact-section.hover .icon-wrap{background-color:#002F4D;}
+.contact-section.disabled{cursor:default;}
+.contact-section.disabled .icon-wrap{background-color:#002F4D;}
+.contact-section.disabled .contact-icon-text,
+.contact-section.disabled .contact-icon-text:hover,
+.contact-section.disabled .contact-icon-text:visited{color:#002F4D;}
+.contact-section.hover .contact-icon-text,
+.contact-section.hover .contact-icon-text:hover,
+.contact-section.hover .contact-icon-text:visited{color:#002F4D;}
+.contact-icon{display:inline-block;height:35px;width:35px;background-image:url('../images/contact_retina_sprite.png');background-size:auto 35px;background-repeat:no-repeat;vertical-align:middle;}
+.contact-chat{background-position:-35px 0px;}
+.contact-phone{background-position:0px 0px;}
+.contact-email{background-position:-70px 0px;}
+.contact-link.active{background-color:transparent !important;}
+@media (max-width:850px){#headerlinks .headerLink.get-app{display:none !important;}
+}
+.col-md-12{position:relative;min-height:1px;padding-left:15px;padding-right:15px;}
+.listedmotors-banner{height:60px;line-height:60px;background:#002F4D;text-align:center;z-index:999;position:relative;overflow-y:hidden;max-height:60px;}
+.listedmotors-banner.banner-slide{transition-property:all;transition-duration:.5s;transition-timing-function:ease-out;}
+.listedmotors-banner.closed{max-height:0;}
+.banner-message{text-align:center;display:inline-block;}
+.listedmotors-banner a, .listedmotors-banner a:hover, .listedmotors-banner a:focus{text-decoration:none;color:white !important;cursor:pointer;}
+.listedmotors-banner a:hover .banner-action{opacity:0.7;}
+.banner-icon{display:inline-block;height:35px;width:35px;background-size:auto 35px;background-repeat:no-repeat;vertical-align:middle;margin:0 5px;margin-top:-3px;}
+.listedmotors-banner .close-white-icon{margin-right:8px;}
+.close-white-icon{display:inline-block;height:35px;width:35px;background-image:url('../images/White_close_icon_Retina.png');background-size:auto 35px;background-repeat:no-repeat;vertical-align:middle;}
+.banner-dismiss{background-size:auto 25px !important;position:absolute;top:18px;right:28px;}
+.banner-caret-icon{display:inline-block;height:35px;width:35px;background-image:url('../images/Open_caret_icon_Retina_v2.png');background-size:auto 35px;background-repeat:no-repeat;vertical-align:middle;margin-top:-2px;}
+.banner-text, .banner-mobile-text{font-size:15px !important;font-weight:500;opacity:1;letter-spacing:0.4px;}
+.banner-learn-more-text{font-size:15px !important;font-weight:500;margin-left:5px;letter-spacing:0.4px;}
+.banner-cta{font-weight:800;}
+@media (max-width:768px){.banner-dismiss{right:-4px;}
+}
+@media (max-width:480px){.listedmotors-banner{text-align:left;}
+.banner-icon{margin:0px;margin-top:-5px;}
+}
+@keyframes tubelight{0%{background-color:rgba(255, 255, 255, 0.2);}
+3%{background-color:rgba(255, 255, 255, 0.7);}
+6%{background-color:rgba(255, 255, 255, 0);}
+9%{background-color:rgba(255, 255, 255, 0.8);}
+12%{background-color:rgba(255, 255, 255, 0);}
+15%{background-color:rgba(255, 255, 255, 0.9);}
+18%{background-color:rgba(255, 255, 255, 0);}
+40%{background-color:rgba(255, 255, 255, 0);}
+43%{background-color:rgba(255, 255, 255, 0.9);}
+46%{background-color:rgba(255, 255, 255, 0);}
+76%{background-color:rgba(255, 255, 255, 0);}
+100%{background-color:rgba(255, 255, 255, 1);}
+}
+@keyframes towhite{0%{background-color:rgba(0, 0, 0, 0.2);opacity:1;}
+100%{background-color:rgba(255, 255, 255, 1);opacity:1;}
+}
+.tubelight-effect{animation:tubelight 1.5s;}
+.towhite-effect{animation:towhite 1s;}
+.email-modal .email_modal_form_wrap,
+.oc-email-modal .email_modal_form_wrap,
+.pf-email-modal .email_modal_form_wrap,
+.car-email-modal .email_modal_form_wrap{clear:both;padding:0 20px;}
+.download-modal,.buyme-modal{min-width:500px;position:absolute;top:100px;left:50%;margin-left:-250px;z-index:99999;background:#FFF;padding:10px 30px 30px 30px;border-radius:5px;color:#002F4D}
+.email-modal *,
+.oc-email-modal *,
+.pf-email-modal *,
+.car-email-modal *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+.download-modal *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding-left:10px}
+.email-modal textarea,
+.email-modal input,
+.oc-email-modal textarea,
+.oc-email-modal input,
+.pf-email-modal textarea,
+.pf-email-modal input,
+.car-email-modal textarea,
+.car-email-modal input,
+.download-modal textarea,
+.download-modal input{color:#002F4D;border:1px solid #8AA0AD}
+.email-modal textarea:-webkit-autofill,
+.email-modal textarea:focus:-webkit-autofill,
+.email-modal input:-webkit-autofill,
+.email-modal input:focus:-webkit-autofill,
+.oc-email-modal textarea:-webkit-autofill,
+.oc-email-modal textarea:focus:-webkit-autofill,
+.oc-email-modal input:-webkit-autofill,
+.oc-email-modal input:focus:-webkit-autofill,
+.pf-email-modal textarea:-webkit-autofill,
+.pf-email-modal textarea:focus:-webkit-autofill,
+.pf-email-modal input:-webkit-autofill,
+.pf-email-modal input:focus:-webkit-autofill,
+.car-email-modal textarea:-webkit-autofill,
+.car-email-modal textarea:focus:-webkit-autofill,
+.car-email-modal input:-webkit-autofill,
+.car-email-modal input:focus:-webkit-autofill,
+.download-modal textarea:-webkit-autofill,
+.download-modal textarea:focus:-webkit-autofill,
+.download-modal input:-webkit-autofill,
+.download-modal input:focus:-webkit-autofill{-webkit-box-shadow:0 0 0 1000px white inset}
+.email-modal textarea.invalid,
+.email-modal input.invalid,
+.oc-email-modal textarea.invalid,
+.oc-email-modal input.invalid,
+.pf-email-modal textarea.invalid,
+.pf-email-modal input.invalid,
+.car-email-modal textarea.invalid,
+.car-email-modal input.invalid,
+.download-modal textarea.invalid,
+.download-modal input.invalid{border:1px solid #FB0031}
+.email-modal textarea.invalid::-webkit-input-placeholder,
+.email-modal input.invalid::-webkit-input-placeholder,
+.oc-email-modal textarea.invalid::-webkit-input-placeholder,
+.oc-email-modal input.invalid::-webkit-input-placeholder,
+.pf-email-modal textarea.invalid::-webkit-input-placeholder,
+.pf-email-modal input.invalid::-webkit-input-placeholder,
+.car-email-modal textarea.invalid::-webkit-input-placeholder,
+.car-email-modal input.invalid::-webkit-input-placeholder,
+.download-modal textarea.invalid::-webkit-input-placeholder,
+.download-modal input.invalid::-webkit-input-placeholder{color:#FB0031}
+.email-modal textarea.invalid:-moz-placeholder,
+.email-modal input.invalid:-moz-placeholder,
+.oc-email-modal textarea.invalid:-moz-placeholder,
+.oc-email-modal input.invalid:-moz-placeholder,
+.pf-email-modal textarea.invalid:-moz-placeholder,
+.pf-email-modal input.invalid:-moz-placeholder,
+.car-email-modal textarea.invalid:-moz-placeholder,
+.car-email-modal input.invalid:-moz-placeholder,
+.download-modal textarea.invalid:-moz-placeholder,
+.download-modal input.invalid:-moz-placeholder{color:#FB0031}
+.email-modal textarea.invalid::-moz-placeholder,
+.email-modal input.invalid::-moz-placeholder,
+.oc-email-modal textarea.invalid::-moz-placeholder,
+.oc-email-modal input.invalid::-moz-placeholder,
+.pf-email-modal textarea.invalid::-moz-placeholder,
+.pf-email-modal input.invalid::-moz-placeholder,
+.car-email-modal textarea.invalid::-moz-placeholder,
+.car-email-modal input.invalid::-moz-placeholder,
+.download-modal textarea.invalid::-moz-placeholder,
+.download-modal input.invalid::-moz-placeholder{color:#FB0031}
+.email-modal textarea.invalid:-ms-input-placeholder,
+.email-modal input.invalid:-ms-input-placeholder,
+.oc-email-modal textarea.invalid:-ms-input-placeholder,
+.oc-email-modal input.invalid:-ms-input-placeholder,
+.pf-email-modal textarea.invalid:-ms-input-placeholder,
+.pf-email-modal input.invalid:-ms-input-placeholder,
+.car-email-modal textarea.invalid:-ms-input-placeholder,
+.car-email-modal input.invalid:-ms-input-placeholder,
+.download-modal textarea.invalid:-ms-input-placeholder,
+.download-modal input.invalid:-ms-input-placeholder{color:#FB0031}
+.email-modal textarea.invalid:focus::-webkit-input-placeholder,
+.email-modal input.invalid:focus::-webkit-input-placeholder,
+.oc-email-modal textarea.invalid:focus::-webkit-input-placeholder,
+.oc-email-modal input.invalid:focus::-webkit-input-placeholder,
+.pf-email-modal textarea.invalid:focus::-webkit-input-placeholder,
+.pf-email-modal input.invalid:focus::-webkit-input-placeholder,
+.car-email-modal textarea.invalid:focus::-webkit-input-placeholder,
+.car-email-modal input.invalid:focus::-webkit-input-placeholder,
+.download-modal textarea.invalid:focus::-webkit-input-placeholder,
+.download-modal input.invalid:focus::-webkit-input-placeholder{color:#AAA}
+.email-modal textarea.invalid:focus:-moz-placeholder,
+.email-modal input.invalid:focus:-moz-placeholder,
+.oc-email-modal textarea.invalid:focus:-moz-placeholder,
+.oc-email-modal input.invalid:focus:-moz-placeholder,
+.pf-email-modal textarea.invalid:focus:-moz-placeholder,
+.pf-email-modal input.invalid:focus:-moz-placeholder,
+.car-email-modal textarea.invalid:focus:-moz-placeholder,
+.car-email-modal input.invalid:focus:-moz-placeholder,
+.download-modal textarea.invalid:focus:-moz-placeholder,
+.download-modal input.invalid:focus:-moz-placeholder{color:#AAA}
+.email-modal textarea.invalid:focus::-moz-placeholder,
+.email-modal input.invalid:focus::-moz-placeholder,
+.oc-email-modal textarea.invalid:focus::-moz-placeholder,
+.oc-email-modal input.invalid:focus::-moz-placeholder,
+.pf-email-modal textarea.invalid:focus::-moz-placeholder,
+.pf-email-modal input.invalid:focus::-moz-placeholder,
+.car-email-modal textarea.invalid:focus::-moz-placeholder,
+.car-email-modal input.invalid:focus::-moz-placeholder,
+.download-modal textarea.invalid:focus::-moz-placeholder,
+.download-modal input.invalid:focus::-moz-placeholder{color:#AAA}
+.email-modal textarea.invalid:focus:-ms-input-placeholder,
+.email-modal input.invalid:focus:-ms-input-placeholder,
+.oc-email-modal textarea.invalid:focus:-ms-input-placeholder,
+.oc-email-modal input.invalid:focus:-ms-input-placeholder,
+.pf-email-modal textarea.invalid:focus:-ms-input-placeholder,
+.pf-email-modal input.invalid:focus:-ms-input-placeholder,
+.car-email-modal textarea.invalid:focus:-ms-input-placeholder,
+.car-email-modal input.invalid:focus:-ms-input-placeholder,
+.download-modal textarea.invalid:focus:-ms-input-placeholder,
+.download-modal input.invalid:focus:-ms-input-placeholder{color:#AAA}
+.email-modal textarea:focus,
+.email-modal input:focus,
+.oc-email-modal textarea:focus,
+.oc-email-modal input:focus,
+.pf-email-modal textarea:focus,
+.pf-email-modal input:focus,
+.car-email-modal textarea:focus,
+.car-email-modal input:focus,
+.download-modal textarea:focus,
+.download-modal input:focus{color:#002F4D;box-shadow:none;-webkit-box-shadow:none;border:1px solid #002F4D}
+.email-modal textarea,
+.oc-email-modal textarea,
+.pf-email-modal textarea,
+.car-email-modal textarea,
+.download-modal textarea{resize:none}
+.email-modal input,
+.oc-email-modal input,
+.pf-email-modal input,
+.car-email-modal input,
+.download-modal input{height:40px}
+.email-modal .modal-title,
+.oc-email-modal .modal-title,
+.pf-email-modal .modal-title,
+.car-email-modal .modal-title,
+.download-modal .modal-title{font-size:26px;padding:10px 0 10px 0}
+.email-modal .modal-subtitle,
+.oc-email-modal .modal-subtitle,
+.pf-email-modal .modal-subtitle,
+.car-email-modal .modal-subtitle,
+.download-modal .modal-subtitle{font-size:20px;padding:0 0 20px 0;}
+.email-modal .conditions,
+.oc-email-modal .conditions,
+.pf-email-modal .conditions,
+.car-email-modal .conditions,
+.download-modal .conditions{font-size:12px}
+.email-modal .modal-action,
+.oc-email-modal .modal-action,
+.pf-email-modal .modal-action,
+.car-email-modal .modal-action,
+.download-modal .modal-action{padding:10px 0 0 0}
+.email-modal .center-align,
+.oc-email-modal .center-align,
+.pf-email-modal .center-align,
+.car-email-modal .center-align,
+.download-modal .center-align{text-align:center}
+.email-modal .close-icon-grey,
+.oc-email-modal .close-icon-grey,
+.pf-email-modal .close-icon-grey,
+.car-email-modal .close-icon-grey,
+.download-modal .close-icon-grey{display:inline-block;height:18px;width:18px;background-image:url("../images/icon_close_grey_Retina.png");background-size:auto 18px;background-repeat:no-repeat;vertical-align:middle;padding-top:30px;position:absolute;right:30px;top:22px;z-index:99}
+.email-modal .send_button,
+.email-modal .send_download_link,
+.oc-email-modal .send_button,
+.oc-email-modal .send_download_link,
+.pf-email-modal .send_button,
+.pf-email-modal .send_download_link,
+.car-email-modal .send_button,
+.car-email-modal .send_download_link,
+.download-modal .send_button,
+.download-modal .send_download_link{border-radius:5px;background-color:#009BFF;display:inline-block;color:#FFF;line-height:40px;width:250px;cursor:pointer;border:0;margin:15px 0}
+.email-modal .send_button.success,
+.email-modal .send_button.success:hover,
+.email-modal .send_download_link.success,
+.email-modal .send_download_link.success:hover,
+.oc-email-modal .send_button.success,
+.oc-email-modal .send_button.success:hover,
+.oc-email-modal .send_download_link.success,
+.oc-email-modal .send_download_link.success:hover,
+.pf-email-modal .send_button.success,
+.pf-email-modal .send_button.success:hover,
+.pf-email-modal .send_download_link.success,
+.pf-email-modal .send_download_link.success:hover,
+.car-email-modal .send_button.success,
+.car-email-modal .send_button.success:hover,
+.car-email-modal .send_download_link.success,
+.car-email-modal .send_download_link.success:hover,
+.download-modal .send_button.success,
+.download-modal .send_button.success:hover,
+.download-modal .send_download_link.success,
+.download-modal .send_download_link.success:hover{background-color:#40B173}
+.email-modal .send_button.error,
+.email-modal .send_button.error:hover,
+.email-modal .send_download_link.error,
+.email-modal .send_download_link.error:hover,
+.oc-email-modal .send_button.error,
+.oc-email-modal .send_button.error:hover,
+.oc-email-modal .send_download_link.error,
+.oc-email-modal .send_download_link.error:hover,
+.pf-email-modal .send_button.error,
+.pf-email-modal .send_button.error:hover,
+.pf-email-modal .send_download_link.error,
+.pf-email-modal .send_download_link.error:hover,
+.car-email-modal .send_button.error,
+.car-email-modal .send_button.error:hover,
+.car-email-modal .send_download_link.error,
+.car-email-modal .send_download_link.error:hover,
+.download-modal .send_button.error,
+.download-modal .send_button.error:hover,
+.download-modal .send_download_link.error,
+.download-modal .send_download_link.error:hover{background-color:#FB0031}
+.email-modal .send_button.inactive,
+.email-modal .send_download_link.inactive,
+.oc-email-modal .send_button.inactive,
+.oc-email-modal .send_download_link.inactive,
+.pf-email-modal .send_button.inactive,
+.pf-email-modal .send_download_link.inactive,
+.car-email-modal .send_button.inactive,
+.car-email-modal .send_download_link.inactive,
+.download-modal .send_button.inactive,
+.download-modal .send_download_link.inactive{opacity:.3}
+.email-modal .send_button.inactive:hover,
+.email-modal .send_download_link.inactive:hover,
+.oc-email-modal .send_button.inactive:hover,
+.oc-email-modal .send_download_link.inactive:hover,
+.pf-email-modal .send_button.inactive:hover,
+.pf-email-modal .send_download_link.inactive:hover,
+.car-email-modal .send_button.inactive:hover,
+.car-email-modal .send_download_link.inactive:hover,
+.download-modal .send_button.inactive:hover,
+.download-modal .send_download_link.inactive:hover{cursor:default;background-color:#009BFF}
+.email-modal .send_button:hover,
+.email-modal .send_download_link:hover,
+.oc-email-modal .send_button:hover,
+.oc-email-modal .send_download_link:hover,
+.pf-email-modal .send_button:hover,
+.pf-email-modal .send_download_link:hover,
+.car-email-modal .send_button:hover,
+.car-email-modal .send_download_link:hover,
+.download-modal .send_button:hover,
+.download-modal .send_download_link:hover{background-color:#002F4D}
+.email-modal *,
+.oc-email-modal *,
+.pf-email-modal *,
+.car-email-modal *,
+.download-modal *{outline:0;-webkit-appearance:none}
+.email-modal a,
+.email-modal a:focus,
+.email-modal a:hover,
+.oc-email-modal a,
+.oc-email-modal a:focus,
+.oc-email-modal a:hover,
+.pf-email-modal a,
+.pf-email-modal a:focus,
+.pf-email-modal a:hover,
+.car-email-modal a,
+.car-email-modal a:focus,
+.car-email-modal a:hover,
+.download-modal a,
+.download-modal a:focus,
+.download-modal a:hover{text-decoration:none;cursor:pointer}
+.email-modal .no-left-padding,
+.oc-email-modal .no-left-padding,
+.pf-email-modal .no-left-padding,
+.car-email-modal .no-left-padding,
+.download-modal .no-left-padding{padding-left:0!important}
+.email-overlay{}
+.listedmotors-modal{background-color:rgba(0, 0, 0, 0.6);position:fixed;top:0;left:0;bottom:0;right:0;z-index:99999999}
+.full-width{height:100%;width:100%}
+.download-modal{min-width:700px;min-height:450px;margin-left:-350px}
+.download-modal .phone-image-wrapper{display:inline-block;position:relative;top:52px}
+.download-modal .phone-image{display:inline-block;width:90%;position:relative;z-index:-1}
+.download-modal .ios-download{margin-top:30px;height:40px;width:135px;cursor:pointer;background-image:url("../images/Download_iOS-app_logo_Retina.png");background-repeat:no-repeat;background-size:auto 40px;display:inline-block}
+.download-modal #phone{width:250px;margin:0 auto}
+.download-modal .width50{width:300px;display:inline-block;float:left}
+.download-modal .form-wrapper{text-align:center;margin-top:37px}
+.listedmotors-overlay-modal{background-color:rgba(0, 0, 0, 0.6);position:fixed;top:0;left:0;bottom:0;right:0;z-index:99999999;text-align:center;padding-top:10%}
+.listedmotors-overlay-modal .close-icon-grey{display:inline-block;height:18px;width:18px;background-image:url("../images/icon_close_grey_Retina.png");background-size:auto 18px;background-repeat:no-repeat;vertical-align:middle;padding-top:30px;z-index:99}
+#whitelogo{background-image:url("../images/listed_header_sprite.png");background-repeat:no-repeat;background-size:200px 95px;width:100px;height:38px;display:none;}
+#blacklogo{background-image:url("../images/listed_header_sprite.png");background-repeat:no-repeat;background-size:200px 95px;background-position:0px -38px;width:100px;height:38px;display:block;}
+.page .page-content-wrapper p{color:#aaa;}
+.vc_row.vc_row-fluid.max-width-1140{max-width:1140px;margin:0 auto;}

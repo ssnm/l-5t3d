@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
+    <title>Info icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M9.05175781,18.4770508 C14.0223206,18.4770508 18.0517578,14.4476135 18.0517578,9.47705078 C18.0517578,4.50648803 14.0223206,0.477050781 9.05175781,0.477050781 C4.08119506,0.477050781 0.0517578125,4.50648803 0.0517578125,9.47705078 C0.0517578125,14.4476135 4.08119506,18.4770508 9.05175781,18.4770508 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="18" height="18" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Leasing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="05-–-List" transform="translate(-1087.000000, -581.000000)">
+            <g id="Pricing" transform="translate(976.000000, 571.000000)">
+                <g id="Cash" transform="translate(23.000000, 0.000000)">
+                    <g id="Info-icon" transform="translate(87.948242, 9.522949)">
+                        <use id="Outline" stroke="#888888" mask="url(#mask-2)" stroke-width="2" xlink:href="#path-1"></use>
+                        <path d="M8.34745085,6.9253813 L9.75606477,6.9253813 L9.75606477,15.1307498 L8.34745085,15.1307498 L8.34745085,6.9253813 Z M8.34745085,3.82335174 L9.75606477,3.82335174 L9.75606477,5.39360988 L8.34745085,5.39360988 L8.34745085,3.82335174 Z" id="i" fill="#888888"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

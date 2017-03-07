@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
+    <title>Info icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M7.55175781,15.4770508 C11.6938934,15.4770508 15.0517578,12.1191864 15.0517578,7.97705078 C15.0517578,3.83491516 11.6938934,0.477050781 7.55175781,0.477050781 C3.40962219,0.477050781 0.0517578125,3.83491516 0.0517578125,7.97705078 C0.0517578125,12.1191864 3.40962219,15.4770508 7.55175781,15.4770508 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="15" height="15" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Leasing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="05-–-Grid" transform="translate(-737.000000, -472.000000)">
+            <g id="Sample" transform="translate(434.000000, 346.000000)">
+                <g id="Info-icon" transform="translate(302.948242, 125.522949)">
+                    <use id="Outline" stroke="#FFFFFF" mask="url(#mask-2)" stroke-width="2" xlink:href="#path-1"></use>
+                    <path d="M7.05175781,5.67174105 L8.05175781,5.67174105 L8.05175781,11.4770508 L7.05175781,11.4770508 L7.05175781,5.67174105 Z M7.05175781,3.47705078 L8.05175781,3.47705078 L8.05175781,4.58801062 L7.05175781,4.58801062 L7.05175781,3.47705078 Z" id="i" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

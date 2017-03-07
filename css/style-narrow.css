@@ -1,0 +1,61 @@
+.txt24{font-size:23px;line-height:23px;}
+#header{display:block;height:50px;position:relative;width:100%;z-index:9000;top:0px;}
+.narrow_adjust{padding:10px 0 !important;}
+.bt_nav{margin:14px 0 0;}
+.header_conten_logo_lupe{float:left;height:37px;margin:0 0 0 -30px;position:absolute;width:100% !important;}
+.header_conten_logo{float:none;height:37px;position:relative;width:100%;}
+.header_conten_links{float:left;height:50px;right:0;width:100%;}
+.menu{float:right;}
+.header_isologo{background-position:0 -38px;width:37px;margin:8px auto 0 auto;float:none;}
+.call-a{margin:7px auto;}
+.car_title{margin:1px auto 0;width:50%;line-height:36px !important;}
+.blueRibbon .text_back{display:none;}
+.share{width:26%;}
+#listedmotorsPrime .body .info table tr td.greenQuestion div:before{left:100px;}
+#listedmotorsPrime .body .info table tr td.greenQuestion div:after{left:200px;}
+.carSlider{height:auto;position:relative;width:100%;z-index:1;margin-top:0;}
+.whiteDiv .swiper-container{display:block !important;height:auto;width:100%;}
+.slider, .slider2{height:100%;overflow:hidden;position:relative;width:100%;}
+.carSlider .swiper-wrapper{margin:0 0 -5px;}
+.slides{height:100%;overflow:hidden;}
+.slide{clear:none;float:left;height:100%;position:relative;}
+.whiteDiv .box{height:100%;width:100%;}
+.carRibbons{background-image:url("../images/CarPage/bg_ribbon.png");background-repeat:repeat;bottom:0px;height:50px;width:100%;z-index:1000;}
+.carRibbons .ribbon{background-image:url("../images/CarPage/bg_ribbon.png");background-repeat:repeat;float:right;height:45px;position:relative;width:100%;}
+.carRibbon .ribbon .conten, .carRibbons .ribbon .conten, .carRibbons .car{bottom:0;color:#ffffff;height:50px;}
+.carRibbon .ribbon .text, .carRibbons .ribbon .text, .carRibbons .car .text{color:#fff;float:left;font-size:22px;padding:14px 13px;position:relative;text-shadow:none;}
+.carRibbons .car .valor{color:#ffffff;font-size:33px;padding:8px 0 3px 0;position:relative;text-shadow:none;text-align:center;margin-top:-5px;cursor:pointer;}
+.carRibbon .ribbon .valor strong, .carRibbons .ribbon .valor strong{float:right;padding:15px;}
+.carRibbons .price{color:white;font-size:33px;margin:0;display:inline-block;}
+#tabs-critic .bx-controls-direction{display:none;}
+.content_price{vertical-align:initial;}
+.price_desc_container{line-height:8px;}
+.price_desc_container p{font-size:14px;line-height:inherit;}
+.payment-band .payment-options{width:30%;}
+.main{}
+.container{padding:0 45px 0 45px;margin:0px;width:100%;}
+.a_adjust_tooltip{width:76px;}
+.adjust_tooltips{width:250px !important;}
+.technology_adjust{width:89%;line-height:24px;}
+.technology_adjust2{width:89%;line-height:38px;}
+#leftPanelButton .toggle{background:transparent;color:#676767;display:block;height:44px;line-height:44px;}
+#leftPanelButton .toggle{border-radius:0 0 0.5em 0;-moz-border-radius:0 0 0.5em 0;-webkit-border-radius:0 0 0.5em 0;}
+#skel-panels-pageWrapper{transform:none;}
+.bt_close_pop_up{background-position:-343px -73px !important;cursor:pointer;float:right;height:21px;position:relative;width:22px;z-index:50000;}
+.feature_spec_conten{height:65px;padding:10px;position:relative;width:45%;z-index:40000;cursor:pointer;margin:auto;}
+.car_inspection_image_1{background-image:url("../images/CarPage/car_inspection_ext.gif");background-position:center center;background-repeat:no-repeat;background-size:cover;position:relative;}
+.car_inspection_image_2{background-image:url("../images/CarPage/car_inspection_int.gif");background-position:center center;background-repeat:no-repeat;background-size:cover;position:relative;}
+.AmazingPrice .price01{font-size:15px;}
+.circle_cyan2 .txt{margin:-82px auto;}
+.AmazingPrice{height:344px;}
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor{padding:0.9em 0.5em 0.7em 0.5em;}
+.ui-widget-header a{font-family: 'Lato', sans-serif; font-weight:700; font-size:15px;}
+.ajuste7u{width:66.6667% !important;}
+.tooltip_adjust{margin-top:-150px !important;margin-left:-126px !important;z-index:2000 !important;}
+.pop_up_icons .feature_specs{padding:0 20%;}
+.bt_back{margin:16px 0 7px 5px;}
+.topbar_conten_txt{margin:9px 0 0;height:18px;}
+.bt_share{height:29px;margin:12px 3px 6px 5px;width:30px;}
+.module_share_conten{padding:10px 200px;}
+.arrow-left, .arrow-right{display:none;}
+.mpgCircle{position:relative;bottom:22px;}

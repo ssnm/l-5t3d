@@ -1,0 +1,15 @@
+#header{}
+.call-a{margin:7px auto;}
+#listedmotorsPrime .body .info table tr td.greenQuestion div:before{left:60px;}
+#listedmotorsPrime .body .info table tr td.greenQuestion div:after{left:160px;}
+.main{background-color:#fff;top:0;z-index:8000;}
+.sale_status{top:130px;right:25px;}
+.sale_status img{width:90px;}
+.buyBtnSalePending img{width:69px;height:51px;}
+.txt21{font-size:18px;line-height:18px;}
+.share{display:flex;}
+.technology_adjust3{line-height:24px !important;width:89%;}
+.pop_up_shields .feature_spec_conten{padding:0 13%;}
+.mpgCircle{position:relative;bottom:22px;}
+.carRibbons .price{font-size:30px;}
+.single-listings .features_and_options ul li{max-width:none;margin-bottom:10px;}
